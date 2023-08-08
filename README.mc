@@ -1,4 +1,4 @@
-# Pesquisa binária em C
+<h2 align="left"> Pesquisa binária em C </h2>
 Algoritmo de pesquisa binária em linguagem C
 A pesquisa binária é um dos diversos e mais conhecidos algoritmos do mundo da programação, a pesquisa binária permite diminuir drasticamente o tempo de pesquisa de um item em uma lista. Em um algoritmo de busca simples, utilizando de uma lista telefônica com 4 bilhões de nomes e esperando o pior resultado possível, o número de etapas necessárias para encontrar determinado nome, seria de 4 bilhões. Utilizando a pesquisa binária, o número de etapas cai pra 32!
 
