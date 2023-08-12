@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int pesquisa_binaria(int lista[], int tamanho, int item)
     {
 
@@ -9,9 +10,9 @@ int pesquisa_binaria(int lista[], int tamanho, int item)
         {
             int meio = (baixo + alto) / 2;
 
-            if (meio % 2 != 1){
+            /* if (meio % 2 != 1){
                 meio--;
-            };
+            }; */
 
             if(lista[meio] == item)
             {
@@ -36,9 +37,9 @@ int pesquisa_binaria(int lista[], int tamanho, int item)
 int main()
 {
 
-    int lista[] = {1,3,5,7,9,11};
-    int item = 5;
+    int lista[] = {1,3,5,7,9,11,13};
     int tamanho = sizeof(lista) / sizeof(lista[0]) - 1;
+    int item = 9;
 
 
 
