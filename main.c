@@ -10,9 +10,6 @@ int pesquisa_binaria(int lista[], int tamanho, int item)
         {
             int meio = (baixo + alto) / 2;
 
-            /* if (meio % 2 != 1){
-                meio--;
-            }; */
 
             if(lista[meio] == item)
             {
